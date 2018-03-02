@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title> Journey of Kethrum </title>
+</head>
+
+<body>
+	<h1 align="center"> Journey of Kethrum </h1>
+	<a href="index.html"> Go Back </a>
+	<hr />
+	
+	<!-- First blog entree -->
+	<h2> First Programs </h2>
+	<img title="Title Screen" src="images/tbrpg1.png" alt="Error: Image Could Not Be Loaded" />
+	<p> 3/2/2018 <br /> The first game I started making was a text based rpg, called Journey of Kethrum. I later began to develop a graphical version of it, but you can read all about that in future updates.
+	It grew to a little over 3k lines of code. I remember the bugs I had encountered, finding solutions. The thing I liked most about programming was overcoming all of those bugs.
+	Looking back, the source file is very messy, and is littered with repetitive code. I'll probably come back to it at some point, and clean it up. </p>
+	<img title="Menu" src="images/tbrpg2.png" alt="Error: Image Could Not Be Loaded" />
+	<img title="Lvl up" src="images/tbrpg5.png" alt="Error: Image Could Not Be Loaded" />
+	<p> \t I decided to use <strong> SDL (Simple Directmedia Layer) </strong> to handle the rendering. At the time though, I found the process of linking difficult.
+	After failing my first attempt, I tried out SFML, and Allegro, but the same thing happened. I went back to SDL once more, this time getting it right. My first graphical program was a pong clone.
+	This is also something I'd like to revisit. Before I started the graphic rendition, I had wrote a small tile editor program in small basic. For some reason, I couldn't get the file I/0 to work,
+	so I made a custom tile creator. I adapted it to SDL (without the custom tile creator, I just loaded images), planning to make it top down style. <br /><br />
+	I began adding more elements to it, like typing in commands in the cmd console to change the selected texture, change pensize, etc. It was around when I added collision that my computer froze
+	and crashed, <i> while I was building my source file </i>. All of the class files I had made were safe, but my main file was completely wiped. And so, I began recoding it. This time around,
+	my code was a lot more organized and structured. I didn't like going to the cmd console to type in commands, so I loaded up the ttf library and made an in-game command console.
+	I added new commands, like fill, setMapX, loadMap, and more. I added a gui to make map editing easier. I made a map saver and loader. But as I continued, the code became tangled and messy.
+	I eventually scrapped it all (not really, it's still there, I just made a new project) and started anew. <br /><br />
+	This third iteration was much more successful than the other two. The first thing I did was create a new library for my gui. First I made the buttons and textboxes, which I found easy.
+	The others were more complicated; dropmenu, treemenu, and logmenu. Then, I updated my character sprite, and added different skins and hair styles. I made a character customization screen.
+	After that, I decided that since I had already made the tile editor before <i> twice </i>, that I should create the battle system this time. I decided to make a script loader to make my enemies'
+	behaviors more unique. As it was my first time doing something like this, it felt a bit difficult, but I eventually finished a working version. After that, I went and made the tile editor. <br />
+	Here are some very early screenshots I took (From the second iteration, after my main was wiped, and before I started a clean slate. </p>
+	<img title="Tile Editor(1)" src="images/jok1.jpg" alt="Error: Image Could Not Be Loaded" width="40%" />
+	<img title="Tile Editor(2)" src="images/jok2.jpg" alt="Error: Image Could Not Be Loaded" width="40%" />
+	<hr />
+</body>
+
+</html>
